@@ -22,7 +22,6 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 avatar: briandecost.jpg
-twitter_username: briandecost
 github_username: bdecost
 orcid: 0000-0002-3459-5888
 
@@ -40,3 +39,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+excerpt_separator: <!--more-->
