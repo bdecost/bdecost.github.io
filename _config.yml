@@ -26,6 +26,12 @@ twitter_username: briandecost
 github_username: bdecost
 orcid: 0000-0002-3459-5888
 
+
+position: Postdoctoral Research Associate
+department: Materials Science and Engineering
+office: Wean Hall 8302
+institution: Carnegie Mellon University 
+
 # Build settings
 markdown: kramdown
 theme: minima

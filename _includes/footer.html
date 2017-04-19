@@ -3,7 +3,26 @@
   <div class="wrapper">
 
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+	  
+	  {% if site.position %}
+	  <li>{{ site.position }}</li>
+	  {% endif %}
+	  {% if site.department %}
+	  <li>{{ site.department }}</li>
+	  {% endif %}
+	  {% if site.office %}
+	  <li>{{ site.office }}</li>
+	  {% endif %}
+	  {% if site.institution %}
+	  <li>{{ site.institution }}</li>
+	  {% endif %}
+	</ul>
+      </div>
+    </div>
+    
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -14,6 +33,7 @@
           <!--     {{ site.title | escape }} -->
           <!--   {% endif %} -->
           <!--   </li> -->
+	  
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
