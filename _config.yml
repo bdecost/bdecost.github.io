@@ -17,7 +17,7 @@ title: Brian DeCost
 email: bdecost@andrew.cmu.edu
 
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a young computational materials scientist with particular interest in microstructural evolution and the development and application of machine learning and computer vision methods for materials science.
+  I'm a computational materials scientist with particular interest in microstructural evolution and the development and application of machine learning and computer vision methods for materials science.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
