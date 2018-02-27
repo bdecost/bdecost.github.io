@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Brian DeCost
-email: bdecost@andrew.cmu.edu
+email: brian.decost@nist.gov
 
 description: > # this means to ignore newlines until "baseurl:"
   I'm a computational materials scientist with particular interest in microstructural evolution and the development and application of machine learning and computer vision methods for materials science.
@@ -26,10 +26,9 @@ github_username: bdecost
 orcid: 0000-0002-3459-5888
 
 
-position: Postdoctoral Research Associate
-department: Materials Science and Engineering
-office: Wean Hall 8302
-institution: Carnegie Mellon University 
+position: NRC Postdoctoral Research Associate
+department: Material Measurement Laboratory
+institution: National Institute of Standards and Technology
 
 # Build settings
 markdown: kramdown
