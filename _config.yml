@@ -33,10 +33,19 @@ institution: National Institute of Standards and Technology
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
 
 excerpt_separator: <!--more-->
+
+whitelist:
+  - jekyll-redirect-from
+
+header_pages:
+  - 01_blog.md
+  - 02_research.md
+  - 03_publications.md

@@ -1,6 +1,10 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
+redirect_from: "/about/"
 ---
+
+![brian](/images/briandecost.jpg){:width="20%" height="auto"}
+
+I'm currently an NRC postdoctoral researcher at [NIST](https://www.nist.gov) working on developing autonomous systems for materials synthesis, characterization, and modeling to support materials design and discovery.
+
+I did my Ph.D. work with [Prof. Liz Holm](https://holmgroup.github.io/about) in the [materials science department](https://materials.cmu.edu) at [Carnegie Mellon University](https://cmu.edu). My main research focus was on applications of computer vision techniques for microstructure characterization.
